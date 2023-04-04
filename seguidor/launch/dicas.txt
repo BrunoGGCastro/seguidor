@@ -1,0 +1,6 @@
+executa o comando 
+source ~/catkin_ws/devel/setup.bash
+
+rosrun gazebo_ros gazebo src/seguidor/worlds/mundo.world 
+ou
+roslaunch seguidor world.launch
