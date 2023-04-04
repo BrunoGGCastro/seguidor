@@ -8,6 +8,7 @@ material tapeteMat/Diffuse
     texture_unit
     {
      texture tapete.png
+     scale 0.5 0.5
     }
    }
   }

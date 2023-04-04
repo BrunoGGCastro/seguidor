@@ -1,21 +1,22 @@
 <launch>
   <arg name="world" default="$(find seguidor)/worlds/mundo.world"/>
   <arg name="pause" default="false"/>
-  
-<include file="$(find gazebo_ros)/launch/empty_world.launch">
 
-    <arg name="world_name" value="$(arg world)"/> 
+   <include file="$(find gazebo_ros)/launch/empty_world.launch">
 
-    <arg name="paused" value="$(arg pause)"/>
+     <arg name="world_name" value="$(find seguidor)/worlds/mundo.world"/> 
 
-    <arg name="use_sim_time" value="true"/>
+     <arg name="paused" value="$(arg pause)"/>
 
-    <arg name="gui" value="true"/>
+     <arg name="use_sim_time" value="true"/>
 
-    <arg name="recording" value="false"/>
+     <arg name="gui" value="true"/>
 
-    <arg name="debug" value="false"/>
+     <arg name="recording" value="false"/>
 
-  </include>
+     <arg name="debug" value="false"/>
+
+   </include>
+
 
 </launch>

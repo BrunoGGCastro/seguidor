@@ -176,13 +176,13 @@
       </link>
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-0.018187 0.031811 0 0 -0 0</pose>
+      <pose frame=''>-0.043999 0.048927 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>45 912000000</sim_time>
-      <real_time>46 556883086</real_time>
-      <wall_time>1680562787 506836851</wall_time>
-      <iterations>45912</iterations>
+      <sim_time>545 868000000</sim_time>
+      <real_time>554 615109911</real_time>
+      <wall_time>1680567731 146236626</wall_time>
+      <iterations>545868</iterations>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -194,10 +194,10 @@
         </link>
       </model>
       <model name='tapete_borracha'>
-        <pose frame=''>-0.018187 0.031811 0.025 0 -0 0</pose>
+        <pose frame=''>-0.043999 0.048927 0.025 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_0'>
-          <pose frame=''>-0.018187 0.031811 0.025 0 -0 0</pose>
+          <pose frame=''>-0.043999 0.048927 0.025 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -209,7 +209,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>11.34 -1.02855 9.96158 0 0.847643 3.04419</pose>
+        <pose frame=''>8.86686 -1.54054 3.72703 -0 0.599643 2.9642</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
