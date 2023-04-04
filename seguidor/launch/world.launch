@@ -4,7 +4,7 @@
 
    <include file="$(find gazebo_ros)/launch/empty_world.launch">
 
-     <arg name="world_name" value="$(find seguidor)/worlds/mundo.world"/> 
+     <arg name="world_name" value="$(arg world)"/>
 
      <arg name="paused" value="$(arg pause)"/>
 
