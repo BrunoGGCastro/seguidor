@@ -1,0 +1,14 @@
+material RepeatTexture
+{ 
+  technique
+  {
+   pass
+   { 
+    texture_unit
+    {
+     texture ..//sala_seguidor/texture/tapete.png
+     scale 2 2
+    }
+   }
+  }
+}
